@@ -1,0 +1,36 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(90, 88, 88);
+  padding: 10px;
+  color: rgb(231, 227, 227);
+}
+
+.Footer-text {
+  margin-right: auto;
+  cursor: pointer;
+}
+.Footer-text:hover {
+  color: white;
+}
+
+.Footer-links {
+  display: flex;
+  margin-right: 7.8rem;
+  list-style-type: none;
+}
+.Footer-links a:hover {
+  color: lightgray;
+}
+
+.Footer-link {
+  margin-left: 1.3rem;
+}
+
+.Footer-link:first-child {
+  margin-left: 0;
+}/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,64 @@
+.login-page {
+    background-image: url('./assets/Backgpic.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 245px; 
+  
+    .login-form-container {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-85%); 
+      border: 2px solid lightgray;
+      border-radius: 35px;
+      padding: 50px 80px;
+      background-color: #dfdada;
+      max-width: 400px;
+  
+      h2 {
+        text-align: center;
+        margin-bottom: 13px;
+      }
+  
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+  
+        input,
+        button {
+          padding: 15px 25px;
+          outline: none;
+        }
+  
+        button {
+          background-color: #333;
+          color: white;
+          border: none;
+          border-radius: 20px;
+          cursor: pointer;
+          transition: all .2s ease-out;
+          &:hover {
+            transform: scale(1.03);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          }
+        }
+      }
+
+      .register-link {
+        color: black;
+        transform: translateY(85%);
+        white-space: nowrap;
+          a {
+            color: RGB(65, 105, 225);
+          }
+      }
+      .error-message{
+        margin-top: 30px;
+        margin-left: 40px;
+      }
+    }
+  }
